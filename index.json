@@ -1,6 +1,6 @@
 {
-  "expires": "2026-12-11T08:35:27Z",
-  "generated": "2026-11-11T08:35:27Z",
+  "expires": "2026-12-11T10:08:54Z",
+  "generated": "2026-11-11T10:08:54Z",
   "mirrors": [
     "https://splify2.github.io/splify2-core-plugins/",
     "https://cdn.jsdelivr.net/gh/splify2/splify2-core-plugins@gh-pages/"
@@ -40,6 +40,241 @@
             }
           },
           "version": "26.11.0"
+        }
+      ]
+    },
+    "autoapply": {
+      "default": true,
+      "description": "Applies the saved settings on the router by itself, right after they are saved, even when no page is open",
+      "key_role": "plugins",
+      "name": "Auto-apply",
+      "type": "plugin",
+      "versions": [
+        {
+          "assets": {
+            "all": {
+              "installed": 20945,
+              "path": "autoapply/1.1.0/autoapply-1.1.0-all.s2p",
+              "sha256": "85e044098cc41ef6c6595be332de975e227e1ac5c23dc9056aafe0ae27d16a82",
+              "size": 7993
+            }
+          },
+          "compat": {
+            "splify2-api": "^1.0"
+          },
+          "provides": {},
+          "released": "2026-11-11T10:08:54Z",
+          "version": "1.1.0"
+        }
+      ]
+    },
+    "backup": {
+      "default": true,
+      "description": "Выгрузка настроек роутера в файл и восстановление из него",
+      "key_role": "plugins",
+      "name": "Архив настроек",
+      "type": "plugin",
+      "versions": [
+        {
+          "assets": {
+            "all": {
+              "installed": 39726,
+              "path": "backup/1.0.0/backup-1.0.0-all.s2p",
+              "sha256": "e62f1d0f76195e65ad60a6937aa5fa2b30f8bc92e2efbc7bafb0b2a6a142c77b",
+              "size": 13520
+            }
+          },
+          "compat": {
+            "splify2-api": "^1.0"
+          },
+          "provides": {},
+          "released": "2026-11-11T10:08:54Z",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    "group-check": {
+      "default": true,
+      "description": "Checks the members of output groups: a verdict for each member, failure history, a hint when a member is dead",
+      "key_role": "plugins",
+      "name": "Group check",
+      "type": "plugin",
+      "versions": [
+        {
+          "assets": {
+            "all": {
+              "installed": 20810,
+              "path": "group-check/1.0.0/group-check-1.0.0-all.s2p",
+              "sha256": "914ba3615f93878d99097df4997ab5357751d1d1cc9501315b8f6780a7aafc70",
+              "size": 8022
+            }
+          },
+          "compat": {
+            "splify2-api": "^1.0"
+          },
+          "provides": {},
+          "released": "2026-11-11T10:08:54Z",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    "lang-en": {
+      "default": true,
+      "description": "English for the splify2 frame and the Andromeda panel",
+      "key_role": "plugins",
+      "license": "MIT",
+      "name": "English",
+      "type": "language",
+      "versions": [
+        {
+          "assets": {
+            "all": {
+              "installed": 154556,
+              "path": "lang-en/1.0.0/lang-en-1.0.0-all.s2p",
+              "sha256": "7eaae3c2db16b267c005415d93ba91881f0f29a2e90c0e0beff3b11a0149668b",
+              "size": 43384
+            }
+          },
+          "compat": {
+            "host-api": "^1.0"
+          },
+          "provides": {
+            "languages": [
+              "en"
+            ]
+          },
+          "released": "2026-11-11T10:08:54Z",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    "lang-ru": {
+      "default": true,
+      "description": "Русский язык для каркаса splify2 и панели Andromeda",
+      "key_role": "plugins",
+      "license": "MIT",
+      "name": "Русский",
+      "type": "language",
+      "versions": [
+        {
+          "assets": {
+            "all": {
+              "installed": 201362,
+              "path": "lang-ru/1.0.0/lang-ru-1.0.0-all.s2p",
+              "sha256": "d8c6aa799209e68227cfb156cd0fe8e2392b7f0cee7f86597cff0649790d21d6",
+              "size": 52151
+            }
+          },
+          "compat": {
+            "host-api": "^1.0"
+          },
+          "provides": {
+            "languages": [
+              "ru"
+            ]
+          },
+          "released": "2026-11-11T10:08:54Z",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    "lists-catalog": {
+      "default": true,
+      "description": "Списки сервисов и сайтов: каталог, загрузка, свои списки и обновление раз в сутки",
+      "key_role": "plugins",
+      "name": "Каталог списков",
+      "type": "plugin",
+      "versions": [
+        {
+          "assets": {
+            "all": {
+              "installed": 220490,
+              "path": "lists-catalog/1.0.0/lists-catalog-1.0.0-all.s2p",
+              "sha256": "da6380cd6aaa7c3048a938b83fe4ae9c9a38982e4e7b7f86b29bcff76b8c3ebf",
+              "size": 64496
+            }
+          },
+          "compat": {
+            "splify2-api": "^1.0"
+          },
+          "provides": {},
+          "released": "2026-11-11T10:08:54Z",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    "node-check": {
+      "default": true,
+      "description": "Checks subscription nodes and outputs from the router: probe all, measure, exit country, best node",
+      "key_role": "plugins",
+      "name": "Node check",
+      "type": "plugin",
+      "versions": [
+        {
+          "assets": {
+            "all": {
+              "installed": 28487,
+              "path": "node-check/1.0.0/node-check-1.0.0-all.s2p",
+              "sha256": "92b1427f4f4c8838dbcadde9ba5ad35808e3f41682c402daad15e9c7f70df6c3",
+              "size": 10172
+            }
+          },
+          "compat": {
+            "splify2-api": "^1.0"
+          },
+          "provides": {},
+          "released": "2026-11-11T10:08:54Z",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    "subscriptions": {
+      "default": true,
+      "description": "Subscription schedule, traffic quota and own names for subscriptions",
+      "key_role": "plugins",
+      "name": "Subscriptions",
+      "type": "plugin",
+      "versions": [
+        {
+          "assets": {
+            "all": {
+              "installed": 25295,
+              "path": "subscriptions/1.0.0/subscriptions-1.0.0-all.s2p",
+              "sha256": "e674b888ec5142574b24ef9ac077a2c380413d5da244a366d5795b02f25dbf60",
+              "size": 9318
+            }
+          },
+          "compat": {
+            "splify2-api": "^1.0"
+          },
+          "provides": {},
+          "released": "2026-11-11T10:08:54Z",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    "updater": {
+      "default": true,
+      "description": "Versions and installation of the steer core and of splify2 itself from the releases, with a periodic check",
+      "key_role": "plugins",
+      "name": "Updater",
+      "type": "plugin",
+      "versions": [
+        {
+          "assets": {
+            "all": {
+              "installed": 22045,
+              "path": "updater/1.0.0/updater-1.0.0-all.s2p",
+              "sha256": "97990d76f03203a1c1631fbf4274b69a15f72fbfdebad9da54d1e8cbed7aadba",
+              "size": 8141
+            }
+          },
+          "compat": {
+            "splify2-api": "^1.0"
+          },
+          "provides": {},
+          "released": "2026-11-11T10:08:54Z",
+          "version": "1.0.0"
         }
       ]
     }
