@@ -1,6 +1,6 @@
 {
-  "expires": "2026-12-11T19:27:08Z",
-  "generated": "2026-11-11T19:27:08Z",
+  "expires": "2026-12-13T12:46:51Z",
+  "generated": "2026-11-13T12:46:51Z",
   "mirrors": [
     "https://splify2.github.io/splify2-core-plugins/",
     "https://cdn.jsdelivr.net/gh/splify2/splify2-core-plugins@gh-pages/"
@@ -16,6 +16,31 @@
       ],
       "type": "plugin",
       "versions": [
+        {
+          "assets": {
+            "all": {
+              "installed": 795195,
+              "path": "andromeda/26.11.1/andromeda-26.11.1-all.s2p",
+              "sha256": "aeb4c19bfdd906cf9100bc57cbd93cc12166904f7e28986c0eec33b8287d0715",
+              "size": 346608
+            }
+          },
+          "compat": {
+            "splify2-api": "^1.3"
+          },
+          "provides": {},
+          "released": "2026-11-13T12:46:51Z",
+          "requires": {
+            "plugins": {
+              "backup": "^1.0",
+              "lists-catalog": "^1.0",
+              "node-check": "^1.0",
+              "subscriptions": "^1.0",
+              "updater": "^1.0"
+            }
+          },
+          "version": "26.11.1"
+        },
         {
           "assets": {
             "all": {
