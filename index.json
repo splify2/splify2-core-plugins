@@ -1,6 +1,6 @@
 {
-  "expires": "2026-12-13T12:46:51Z",
-  "generated": "2026-11-13T12:46:51Z",
+  "expires": "2026-12-13T13:00:07Z",
+  "generated": "2026-11-13T13:00:07Z",
   "mirrors": [
     "https://splify2.github.io/splify2-core-plugins/",
     "https://cdn.jsdelivr.net/gh/splify2/splify2-core-plugins@gh-pages/"
@@ -154,6 +154,26 @@
         {
           "assets": {
             "all": {
+              "installed": 154727,
+              "path": "lang-en/1.0.2/lang-en-1.0.2-all.s2p",
+              "sha256": "b6a169f24018c3974a518ea26c92f8f88fad4dffd227b22eea120798a48cfa1a",
+              "size": 43430
+            }
+          },
+          "compat": {
+            "host-api": "^1.0"
+          },
+          "provides": {
+            "languages": [
+              "en"
+            ]
+          },
+          "released": "2026-11-13T13:00:07Z",
+          "version": "1.0.2"
+        },
+        {
+          "assets": {
+            "all": {
               "installed": 154657,
               "path": "lang-en/1.0.1/lang-en-1.0.1-all.s2p",
               "sha256": "3f1847dd12f505597a61b25f6e105216c6ffa4642d399f8d3ac80d21e7c2d199",
@@ -201,6 +221,26 @@
       "name": "Русский",
       "type": "language",
       "versions": [
+        {
+          "assets": {
+            "all": {
+              "installed": 201563,
+              "path": "lang-ru/1.0.2/lang-ru-1.0.2-all.s2p",
+              "sha256": "50243904ae8089de512f401b306981a562b004c5a31212b5f565ac07180bbe5d",
+              "size": 52188
+            }
+          },
+          "compat": {
+            "host-api": "^1.0"
+          },
+          "provides": {
+            "languages": [
+              "ru"
+            ]
+          },
+          "released": "2026-11-13T13:00:07Z",
+          "version": "1.0.2"
+        },
         {
           "assets": {
             "all": {
